@@ -38,7 +38,7 @@ const NavigateCard = () => {
             color='black'
             size={16}
           />
-          <Text style={tw`text-center`}>Eats</Text>
+          <Text style={tw`text-center`}>Profile</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

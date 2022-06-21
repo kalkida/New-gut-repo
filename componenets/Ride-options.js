@@ -82,7 +82,7 @@ const RideOptionsCard = () => {
 
       <View style={tw`mt-auto border-t border-gray-300`}>
         <TouchableOpacity
-           onPress={() => navigation.navigate('PayScreen')}
+           onPress={() => navigation.navigate('PayScreen')} 
           disabled={!selected}
           style={tw`bg-black py-3 m-3 rounded-full ${
             !selected && 'bg-gray-300'
